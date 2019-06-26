@@ -1,10 +1,4 @@
 pipeline {
-  agent {
-    docker {
-      image 'mayureshkrishna/venue:latest'
-    }
-
-  }
   stages {
     stage('deploy') {
       steps {
