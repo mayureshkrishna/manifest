@@ -1,0 +1,6 @@
+---
+applications:
+- name: venue-nielsen
+  memory: 1G
+  docker:
+    image: mayureshkrishna/venue:latest
